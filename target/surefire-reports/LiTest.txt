@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: LiTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.16 s <<< FAILURE! - in LiTest
+isLetterA{char}[2]  Time elapsed: 0.025 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: not letter 'a' ==> expected: <a> but was: <b>
+	at LiTest.isLetterA(ListTest.java:63)
+
+isLetterA{char}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: not letter 'a' ==> expected: <a> but was: <b>
+	at LiTest.isLetterA(ListTest.java:63)
+
